@@ -1,8 +1,6 @@
 from django.urls import path, include
 from rest_framework import routers
 
-from cinema.models import Order
-from cinema.serializers import TicketListSerializer
 from cinema.views import (
     GenreViewSet,
     ActorViewSet,
